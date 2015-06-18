@@ -22,16 +22,7 @@
                 @Html.ValidationMessageFor(x => x.password)
                 </div>
            
-        <div class="form-group">
-            <div class="editor-field">
-                @Html.LabelFor(x => x.conformPassword)
-                </div>
-            <div class="editor-field">
-                @Html.EditorFor(x => x.conformPassword, new { @class = "form-control", @placeholder = "Enter Your Password" })
-                @Html.ValidationMessageFor(x => x.conformPassword)
-                </div>
-
-            </div>
+        
         <input type="submit" />
             </div>
     </fieldset>

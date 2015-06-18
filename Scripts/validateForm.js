@@ -282,11 +282,7 @@ var first = true;
         
     });
  
-   $('#ReadMore')(function() {
-
-        //alert($('#nid').val())
-        alert("javascript")
-    });
+ 
      
     });
    
